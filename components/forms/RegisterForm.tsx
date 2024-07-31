@@ -331,8 +331,8 @@ const RegisterForm = ({ user }: { user: User }) => {
         <CustomFormField
           fieldType={FormFieldType.CHECKBOX}
           control={form.control}
-          name="PrivacyConsent"
-          label="I consent to privacy policy"
+          name="privacyConsent"
+          label="I acknowledge that I have read and agree to the Privacy Policy"
         />
 
         <div className="flex flex-col gap-6 xl:flex-row"></div>
